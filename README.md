@@ -1,6 +1,6 @@
 # SOMA
 
-### Team: [Adrià Cabeza](https://github.com/adriacabeza), Raimon Mercè, Bernat Torres, Ferran Velasco
+### Team: [Adrià Cabeza](https://github.com/adriacabeza), [Raimon Mercè](https://github.com/raimonmerce), Bernat Torres, [Ferran Velasco](https://github.com/Ferja)
 
 
 
