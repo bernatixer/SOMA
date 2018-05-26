@@ -10,7 +10,7 @@ This project is mainly separed by two parts, the Python one, where we used tweep
 
 
 
-Accomplishements
+Accomplishments
 
 - [x] Backend and creation of a json with the information using Python
 - [x] Connecting Firebase and our website using Javascript
