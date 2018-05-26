@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="style.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase-database.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
 <div id="main-header">
@@ -20,87 +20,13 @@
   <p class="texto-header">Descripcio pedante</p>
 </div>
 
-<p>Click the button to create a P element with some text.</p>
+<div class="container">
+  <div id="linea" class="row"></div>
 
-<button onclick="addElement()">Element</button>
-
-<script>
-function Col (){
-  var Div = document.createElement("div");
-  Div.className = 'col-sm-4';
-  var Cart = document.createElement("cart");
-  Cart.className = 'card';
-  Cart.style.backgroundColor = "blue";
-  var CartH = document.createElement("carth");
-  CartH.className = 'card-header';
-  var CartHC = document.createTextNode(" Header Carta");
-  CartH.appendChild(CartHC);
-  Cart.appendChild(CartH);
-
-  var CartB = document.createElement("cartb");
-  CartB.className = 'card-body';
-  var CartTi = document.createElement("cartti");
-  CartB.className = 'card-title';
-  var CartTiC = document.createTextNode(" Titol Noticia");
-  CartTi.appendChild(CartTiC);
-  var CartTx = document.createElement("carttx");
-  CartB.className = 'card-text';
-  var CartTxC = document.createTextNode(" Text chungo ahahahahhahahahahahaha ahha aha ah haa  aa  a a aa ha haah a a a ah a h ha");
-  CartTi.appendChild(CartTxC);
-  CartB.appendChild(CartTi);
-  CartB.appendChild(CartTx);
-  Cart.appendChild(CartB);
-  //nexDiv.style
-  Div.appendChild(Cart);
-  return Div;
-}
-
-
-function addElement () {
-  var Row = document.createElement("row");
-  Row.className = 'row';
-  Row.style.backgroundColor = "red";
-  // crea un nuevo div
-  var Div2 = Col();
-  var Div3 = Col();
-  var Div4 = Col();
-
-  Row.appendChild(Div2);
-  Row.appendChild(Div3);
-  Row.appendChild(Div4);
-  //Row.appendChild(Div2);
-  //Row.appendChild(Div3);
-  // añade el elemento creado y su contenido al DOM
-  document.body.appendChild(Row);
-}
-
-/*function addElement () {
-  var Cart = document.createElement("cart");
-  Cart.className = 'card';
-  Cart.style.backgroundColor = "blue";
-  var CartH = document.createElement("carth");
-  CartH.className = 'card-header';
-  var CartHC = document.createTextNode(" Header Carta");
-  CartH.appendChild(CartHC);
-  Cart.appendChild(CartH);
-
-  var CartB = document.createElement("cartb");
-  CartB.className = 'card-body';
-  var CartTi = document.createElement("cartti");
-  CartB.className = 'card-title';
-  var CartTiC = document.createTextNode(" Titol Noticia");
-  CartTi.appendChild(CartTiC);
-  var CartTx = document.createElement("carttx");
-  CartB.className = 'card-text';
-  var CartTxC = document.createTextNode(" Text chungo ahahahahhahahahahahaha ahha aha ah haa  aa  a a aa ha haah a a a ah a h ha");
-  CartTi.appendChild(CartTxC);
-  CartB.appendChild(CartTi);
-  CartB.appendChild(CartTx);
-  Cart.appendChild(CartB);
-  document.body.appendChild(Cart);
-}
-*/
-</script>
+  <p>Click the button to create a P element with some text.</p>
+  
+  <button onclick="posarCard('titol', 'sentiment', 'url', 'text')">Element</button>
+</div>
 
 <script src="script.js"></script>
 </body>
