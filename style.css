@@ -1,0 +1,67 @@
+#main-header {
+	background: #333;
+    color: white;
+    z-index: 3;
+    height: 100px;
+
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+body {
+    padding-top: 120px;
+}
+
+.titol-header {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+.texto-header {
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Montserrat';
+}
+
+.col-sm-4 {
+    margin-bottom: 20px;
+}
+
+.positive-0{
+    background-color: #00cc00;
+}
+
+.positive-1{
+    background-color: #66ff66;
+}
+
+.positive-2{
+    background-color: #ffff66;
+}
+
+.positive-3{
+    background-color: #ffa366;
+}
+.positive-4{
+    background-color: #ff6666;
+}
+
+.card {
+    color: white;
+}
+.card-header {
+    font-family: 'Montserrat';
+}
+
+.card-text {
+    font-family: 'Montserrat';
+}
+
+.card-title {
+    font-family: 'Montserrat';
+}

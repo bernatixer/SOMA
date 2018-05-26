@@ -1,0 +1,18 @@
+var config = {
+    apiKey: "AIzaSyBE4vUV63UFSyQ1iI5TJ8OwsLqiBdcd_E4",
+    authDomain: "hackreviewer-9f759.firebaseapp.com",
+    databaseURL: "https://hackreviewer-9f759.firebaseio.com",
+    projectId: "hackreviewer-9f759",
+    storageBucket: "hackreviewer-9f759.appspot.com",
+    messagingSenderId: "649209123912"
+  };
+  firebase.initializeApp(config);
+
+  var prueba = document.getElementsByClassName('');
+  var text = firebase.database().ref("text");
+  text = text.once("value").then(function(snapshot) {
+      console.log(snapshot.val());
+  });
+
+  
+
