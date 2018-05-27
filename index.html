@@ -14,20 +14,24 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
+  <div class="main-header">
 
-<div id="main-header">
-  <h1 class="titol-header">SOMA</h1>
-  <p class="texto-header">Descripcio pedante</p>
-</div>
+    <h1 style=" font-size:4em;" class="titol-header">SOMA</h1>
+  </div>
+  <p class="texto-header">The best way to enjoy the news according to your mood</p>
 
-<div class="container">
-  <div id="linea" class="row"></div>
 
-  <p>Click the button to create a P element with some text.</p>
-  
-  <button onclick="posarCard('titol', 'sentiment', 'url', 'text')">Element</button>
-</div>
+  <div class="range-slider">
+    <input class="range-slider__range" type="range" value="50" min="0" max="100">
+    <span class="range-slider__value">0</span>
+  </div>
 
-<script src="script.js"></script>
+  <div class="container">
+    <div id="linea" class="row"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+
 </body>
 </html>
